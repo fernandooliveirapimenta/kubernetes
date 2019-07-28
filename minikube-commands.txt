@@ -10,6 +10,9 @@ minikube start
 minikube dashbord #muito legal abre uma inteface web para criar e ver a saude do cluster
 
 minikube service hello-node
+minikube service frontend --url
+
 minikube addons list
+
 minikube addons enable heapster
 minikube addons disable heapster
