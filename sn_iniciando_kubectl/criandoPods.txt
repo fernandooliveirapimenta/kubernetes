@@ -1,0 +1,4 @@
+create pod
+kubectl create -f mysql.yaml
+pod ta criado mas esta isolado
+create service
